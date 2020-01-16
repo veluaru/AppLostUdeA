@@ -2,9 +2,12 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-    background-image: url('assets/img/fondo.jpg') ;
+    background-image: url('assets/img/fondo2.jpg') ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    
+    background-color: darkgray;
+}
+.card{
+    background-color: lightgray;
 }
