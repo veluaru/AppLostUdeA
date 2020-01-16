@@ -22,6 +22,8 @@ h1{
     font-weight: bold;
     color: rgb(62, 126, 73);
   }
+
+
   @media (max-width: 575.98px) { 
     .card{
         padding: 1;
@@ -30,6 +32,9 @@ h1{
     .container{
         padding: 1;
         margin: 1;
+    }
+    h1{
+        font-size: x-large;
     }
     body{
         background-image: url('assets/img/fondo1cel.jpg');
@@ -40,7 +45,7 @@ h1{
 
     .container{
         position: center;
-        width: 55rem;
+        width: 50rem;
     }
 
     }
