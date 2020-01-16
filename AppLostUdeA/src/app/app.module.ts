@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { EncontreObjetoComponent } from './encontreObjeto/encontreObjeto.component';
 import { BuscarObjetoComponent } from './buscarObjeto/buscarObjeto.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
    declarations: [
@@ -18,7 +19,8 @@ import { BuscarObjetoComponent } from './buscarObjeto/buscarObjeto.component';
    ],
    imports: [
       BrowserModule,
-      AppRoutingModule
+      AppRoutingModule,
+      MDBBootstrapModule.forRoot()
    ],
    providers: [],
    bootstrap: [
